@@ -1,4 +1,4 @@
-package com.design_pattern.demo.decoratorProxy;
+package com.design_pattern.demo.decoratorPattern;
 
 /**
  * @Author sandu

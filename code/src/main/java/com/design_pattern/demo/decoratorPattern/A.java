@@ -1,4 +1,6 @@
-package com.design_pattern.demo.decoratorProxy;
+package com.design_pattern.demo.decoratorPattern;
+
+import java.util.Arrays;
 
 /**
  * @Author sandu
@@ -7,6 +9,8 @@ package com.design_pattern.demo.decoratorProxy;
 public class A implements IDecorator{
     @Override
     public void f() {
+
+        Arrays.asList("Aarra","aaaa");
         System.out.println("A");
     }
 }

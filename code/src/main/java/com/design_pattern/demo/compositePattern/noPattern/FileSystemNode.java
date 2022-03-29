@@ -1,4 +1,4 @@
-package com.design_pattern.demo.adapterPattern.compositePattern.noPattern;
+package com.design_pattern.demo.compositePattern.noPattern;
 
 import java.io.File;
 import java.util.ArrayList;

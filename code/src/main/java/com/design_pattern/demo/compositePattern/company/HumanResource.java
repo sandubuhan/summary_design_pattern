@@ -1,7 +1,4 @@
-package com.design_pattern.demo.adapterPattern.compositePattern.company;
-
-import java.util.ArrayList;
-import java.util.List;
+package com.design_pattern.demo.compositePattern.company;
 
 /**
  * @Author sandu

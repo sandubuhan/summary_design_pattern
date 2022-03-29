@@ -1,4 +1,4 @@
-package com.design_pattern.demo.adapterPattern.compositePattern.isPattern;
+package com.design_pattern.demo.compositePattern.isPattern;
 
 
 /**

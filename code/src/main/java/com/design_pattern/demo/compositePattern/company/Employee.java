@@ -1,4 +1,4 @@
-package com.design_pattern.demo.adapterPattern.compositePattern.company;
+package com.design_pattern.demo.compositePattern.company;
 
 /**
  * @Author sandu

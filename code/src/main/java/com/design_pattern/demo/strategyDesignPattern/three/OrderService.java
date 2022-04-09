@@ -11,4 +11,3 @@ public class OrderService {
         return discountStrategy.calDiscount(order);
     }
 }
-    

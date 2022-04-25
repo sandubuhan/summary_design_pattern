@@ -1,4 +1,4 @@
-package com.design_pattern.demo.ObserverPattern.two;
+package com.design_pattern.demo.observerPattern.two;
 
 /**
  * @Author sandu

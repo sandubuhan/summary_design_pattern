@@ -1,4 +1,4 @@
-package com.design_pattern.demo.ObserverPattern.one;
+package com.design_pattern.demo.observerPattern.one;
 
 import lombok.Data;
 

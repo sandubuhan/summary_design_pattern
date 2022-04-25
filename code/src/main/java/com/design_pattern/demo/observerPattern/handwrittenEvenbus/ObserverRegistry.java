@@ -1,7 +1,4 @@
-package com.design_pattern.demo.ObserverPattern.handwrittenEvenbus;
-
-import com.google.common.base.Preconditions;
-import com.google.common.eventbus.Subscribe;
+package com.design_pattern.demo.observerPattern.handwrittenEvenbus;
 
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;

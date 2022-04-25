@@ -1,4 +1,4 @@
-package com.design_pattern.demo.ObserverPattern.extra;
+package com.design_pattern.demo.observerPattern.extra;
 
 import java.util.HashMap;
 import java.util.Iterator;

@@ -1,4 +1,4 @@
-package com.design_pattern.demo.ObserverPattern.eventBus;
+package com.design_pattern.demo.observerPattern.eventBus;
 
 /**
  * 消息类，通常会封装成一个类，消息不同类也不同。如果是带参数的消息，这些参数就可以作为类的属性

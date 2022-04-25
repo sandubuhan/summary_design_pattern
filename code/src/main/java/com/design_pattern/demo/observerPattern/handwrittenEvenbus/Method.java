@@ -1,4 +1,4 @@
-package com.design_pattern.demo.ObserverPattern.handwrittenEvenbus;
+package com.design_pattern.demo.observerPattern.handwrittenEvenbus;
 
 import com.google.common.eventbus.Subscribe;
 

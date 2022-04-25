@@ -1,4 +1,4 @@
-package com.design_pattern.demo.ObserverPattern.eventBus;
+package com.design_pattern.demo.observerPattern.eventBus;
 
 import com.google.common.eventbus.EventBus;
 

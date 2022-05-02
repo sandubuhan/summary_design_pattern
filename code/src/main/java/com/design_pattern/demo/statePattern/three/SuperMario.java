@@ -9,6 +9,7 @@ import com.design_pattern.demo.statePattern.State;
 public class SuperMario implements IMario{
 
     private MarioStateMachine stateMachine;
+
     public SuperMario(MarioStateMachine stateMachine) {
         this.stateMachine = stateMachine;
     }

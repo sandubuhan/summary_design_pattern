@@ -1,7 +1,8 @@
 package com.design_pattern.demo.mementoPattern.two;
 
 /**
- * 备忘录：将发起人传过来的对象保存起来
+ * 备忘录管理者：负责保存备忘录对象
+ *
  * @Author sandu
  * @Date 2022-05-03 15:02
  */

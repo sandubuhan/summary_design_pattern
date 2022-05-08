@@ -7,6 +7,8 @@ package com.design_pattern.demo.mementoPattern.two;
  * @Date 2022-05-03 15:02
  */
 public class Snapshot {
+
+    
     private String text;
 
     public Snapshot(String text) {
@@ -16,4 +18,6 @@ public class Snapshot {
     public String getText() {
         return this.text;
     }
+
+
 }

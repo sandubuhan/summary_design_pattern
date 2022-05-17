@@ -16,7 +16,7 @@ public class Demo {
         names.add("wang");
         names.add("zheng");
 
-        ArrayIterator<String> iterator = new ArrayIterator<>(names);
+        ArrayIterator<String> iterator = new ArrayIterator<String>();
         while (iterator.hasNext()) {
             System.out.println((iterator.currentItem()));
             iterator.next();

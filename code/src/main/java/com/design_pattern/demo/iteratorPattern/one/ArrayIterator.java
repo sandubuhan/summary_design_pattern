@@ -16,6 +16,10 @@ public class ArrayIterator<E> implements Iterator<E> {
         this.arrayList = arrayList;
     }
 
+    public ArrayIterator() {
+
+    }
+
     @Override
     public boolean hasNext() {
         return cursor != arrayList.size(); //注意这里，cursor在指向最后一个元素的时候，hasNext()仍旧返回true。

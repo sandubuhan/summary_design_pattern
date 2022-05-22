@@ -271,3 +271,6 @@ Collections2.filter(Collection, Predicate);
 ~~~
 
 + 从 Google Guava 的 GitHub Wiki 中，我们发现，Google 对于函数式编程的使用还是很谨慎的，认为过度地使用函数式编程，会导致代码可读性变差，强调不要滥用。这跟我前面对函数式编程的观点是一致的。所以，在函数式编程方面，Google Guava 并没有提供太多的支持。
+
+
+

@@ -13,13 +13,13 @@ public interface Logger {
 
     void trace(String format, Object arg);
 
-    void trace(String format,Object arg1,Object arg2);
+    void trace(String format, Object arg1, Object arg2);
 
     public boolean isDebugEnabled();
 
     void debug(String msg);
 
-    void debug(String format,Object arg);
+    void debug(String format, Object arg);
 
-    void debug(String format,Object arg1,Object arg2);
+    void debug(String format, Object arg1, Object arg2);
 }

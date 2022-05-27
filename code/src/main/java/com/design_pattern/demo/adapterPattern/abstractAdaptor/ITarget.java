@@ -6,6 +6,8 @@ package com.design_pattern.demo.adapterPattern.abstractAdaptor;
  */
 public interface ITarget {
     void f1();
+
     void f2();
+
     void f3();
 }

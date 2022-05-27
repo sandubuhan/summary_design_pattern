@@ -28,7 +28,7 @@ public class Notification {
         this.wechatIds = wechatIds;
     }
 
-    public void notify(NotificationEmergencyLevel level,String mesage){
+    public void notify(NotificationEmergencyLevel level, String mesage) {
         if (level.equals(NotificationEmergencyLevel.SEVERE)) {
             //...自动语音电话
         } else if (level.equals(NotificationEmergencyLevel.URGENCY)) {

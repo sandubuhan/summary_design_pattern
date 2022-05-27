@@ -11,7 +11,7 @@ public class ResourcePoolConfig {
     private int maxIdle;
     private int minIdle;
 
-    ResourcePoolConfig(ResourcePoolConfigBuilder builder){
+    ResourcePoolConfig(ResourcePoolConfigBuilder builder) {
 
     }
 

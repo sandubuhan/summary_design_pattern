@@ -32,7 +32,7 @@ public class HandlerChain {
     }
 
     public void handle() {
-        if (head != null){
+        if (head != null) {
             head.handle();
         }
     }

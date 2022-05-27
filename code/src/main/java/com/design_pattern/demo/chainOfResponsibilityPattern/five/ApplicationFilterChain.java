@@ -28,29 +28,29 @@ public class ApplicationFilterChain implements FilterChain {
     @Override
     public void doFilter(ServletRequest request, ServletResponse response) throws IOException, ServletException {
 
-            if (pos<n){
-                ApplicationFilterConfig filterConfig = filters[pos++];
+        if (pos < n) {
+            ApplicationFilterConfig filterConfig = filters[pos++];
 //                Filter                  filter       = filterConfig.getFilter();
-                // 使用递归的天然栈来存放调用链
-                //  使用递归调用，拦截完用户请求后，将请求交给下一个filter，直到
-                //  最后由service处理，在递归返回时，还能够对响应作处理
+            // 使用递归的天然栈来存放调用链
+            //  使用递归调用，拦截完用户请求后，将请求交给下一个filter，直到
+            //  最后由service处理，在递归返回时，还能够对响应作处理
 //                filter.doFilter(request,response,this);
-            }else {
-                // filter都处理完毕后，执行servlet
-                servlet.service(request,response);
-            }
+        } else {
+            // filter都处理完毕后，执行servlet
+            servlet.service(request, response);
+        }
 
     }
 
-    public void addFilter(ApplicationFilterConfig filterConfig){
+    public void addFilter(ApplicationFilterConfig filterConfig) {
         for (ApplicationFilterConfig filter : filters) {
-            if (filter == filterConfig){
+            if (filter == filterConfig) {
                 return;
             }
         }
 
 
-        if (n == filters.length){
+        if (n == filters.length) {
             ApplicationFilterConfig[] newFilters = new ApplicationFilterConfig[n + INCREMENT];
             System.arraycopy(filters, 0, newFilters, 0, n);
             filters = newFilters;

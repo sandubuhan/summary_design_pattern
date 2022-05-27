@@ -6,5 +6,6 @@ package com.design_pattern.demo.factoryPattern.abstractFactory;
  */
 public interface IConfigParserFactory {
     IRuleConfigParser createRuleParser();
+
     ISystemConfigParser createSystemParser();
 }

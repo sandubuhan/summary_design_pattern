@@ -7,13 +7,13 @@ package com.design_pattern.demo.chainOfResponsibilityPattern.two;
 public abstract class Handler {
     protected Handler successor = null;
 
-    public void setSuccessor(Handler handler){
+    public void setSuccessor(Handler handler) {
         this.successor = successor;
     }
 
-    public final void handle(){
+    public final void handle() {
         boolean handled = doHandle();
-        if (successor != null && !handled){
+        if (successor != null && !handled) {
             successor.handle();
         }
     }

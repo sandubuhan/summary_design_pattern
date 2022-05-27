@@ -9,7 +9,7 @@ package com.design_pattern.demo.chainOfResponsibilityPattern.one;
 public abstract class Handler {
     protected Handler sucessor = null;
 
-    public void setSucessor(Handler sucessor){
+    public void setSucessor(Handler sucessor) {
         this.sucessor = sucessor;
     }
 

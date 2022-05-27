@@ -10,14 +10,14 @@ import java.util.List;
 public class HandlerChain {
     private List<IHandler> handlers = new ArrayList<>();
 
-    public void addHandler(IHandler iHandler){
+    public void addHandler(IHandler iHandler) {
         handlers.add(iHandler);
     }
 
-    public void handle(){
+    public void handle() {
         for (IHandler handler : handlers) {
             boolean handle = handler.handle();
-            if (handle){
+            if (handle) {
                 break;
             }
         }

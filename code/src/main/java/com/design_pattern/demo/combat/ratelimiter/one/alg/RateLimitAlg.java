@@ -53,7 +53,7 @@ public class RateLimitAlg {
                 throw new Exception("tryAcquire() wait lock too long:" + TRY_LOCK_TIMEOUT + "ms");
             }
         } catch (InterruptedException e) {
-            throw new Exception("tryAcquire() is interrupted by lock-time-out.", e);
+            throw new Exception("tryAcquire() is interrupted by lock-time-out.e=", e);
         }
     }
 }
